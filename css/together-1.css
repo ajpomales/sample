@@ -7,3 +7,5 @@ h1{ color: #FFFFFF;}
 nav{ font-variant: small-caps; font-size: 150%; font-family: Arial, "Times New Roman", serif;}
 
 h2{ color: #FFFF00; background: #664555;}
+
+details{ font-style: italic;}
