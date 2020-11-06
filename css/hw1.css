@@ -66,6 +66,61 @@ a.active{background-color:#000000}
     margin: 0 auto;
     margin-bottom:30%;
     margin-top:20%;
-     
   }
-  
+  table,th,td{
+/*Space Between Rows and columns*/
+	border: 1px solid #ffffff;
+}
+table{
+	margin: 0 auto;
+	table-layout: auto;
+	width: 750px;
+	font-family: "Arial", Times New Roman, sans-serif;
+	font-size: 16px;
+	line-height: 190%;
+	text-align: center;
+}
+
+th{
+	border-top-left-radius:7px;
+	border-top-right-radius:7px; 
+  border: 1px solid #b2d56a;
+	background: linear-gradient(#d8e4a8,#53650c);
+	color: #ffffff;
+  padding: 10px;
+}
+/*Team Names Text Shadow - table*/
+td{
+	color: #000000;
+	text-shadow: 2px 2px 1px #afaf79;
+  padding: 10px;
+
+}
+tr td{
+	background-color:#f2edab;
+}
+
+tr{
+		opacity: 0.8;
+
+}
+tr.header{
+	opacity: 1;
+}
+
+tr:hover{
+	opacity: 6; 
+}
+th:first-child, td:first-child{
+	text-align: left;
+}
+
+/*img{
+	display: block;
+	margin-bottom: 15px;
+	height: 150px;
+	width: 220px;
+	padding: 3px;
+	border:solid 2px #000000;
+}*/
+
